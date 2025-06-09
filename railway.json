@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "TOKEN": "@TOKEN"
+    }
+  },
+  "start": "gunicorn main:app"
+}
